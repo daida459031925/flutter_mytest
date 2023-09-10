@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mytest/webView.dart';
 
 //主方法
 void main() => runApp(const MyApp());
@@ -43,17 +44,20 @@ class MyApp extends StatelessWidget {
           title: const Text('Flutter layout demo1'),
         ),
         //主体内容
-        body: ListView(
-          children: [
-            //不加宽高的话可以完全展示图片
-            Image.asset(
-              'images/lake.jpg',
-              fit: BoxFit.cover,
-            ),
-            titleSection,
-            buttonSection,
-            textSection,
-          ],
+        // body: ListView(
+        //   children: [
+        //     //不加宽高的话可以完全展示图片
+        //     Image.asset(
+        //       'images/lake.jpg',
+        //       fit: BoxFit.cover,
+        //     ),
+        //     titleSection,
+        //     buttonSection,
+        //     textSection,
+        //   ],
+        // ),
+        body: const SafeArea(
+            child: MyWebView(),
         )
       ),
     );
