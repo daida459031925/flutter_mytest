@@ -19,7 +19,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.1.1 <4.0.0'
+  #不知道为什么我自己笔记本中sdk是3.1.1以上但是在公司电脑不知道为什么变成了3.1.0
+  sdk: '>=3.1.0 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -37,8 +38,16 @@ dependencies:
   cupertino_icons: ^1.0.2
   #添加浏览器插件 但是这个浏览器插件只有android和ios平台
   webview_flutter: ^4.2.3
-  #支持ANDROID IOS LINUX MACOS WEB WINDOWS
+  #状态管理
   provider: ^6.0.5
+  #游戏引擎
+  flame: ^1.8.2
+  #网络请求工具
+  dio: ^5.3.2
+  #字符串验证工具
+  string_validator: ^1.0.0
+  #多种工具合计
+  quiver: ^3.2.1
 
 dev_dependencies:
   flutter_test:
