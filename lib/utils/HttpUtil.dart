@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:dio/dio.dart';
-import 'package:flutter/foundation.dart';
-import 'package:mytest/utils/GlobalUtil.dart';
+import 'package:mutest/utils/GlobalUtil.dart';
 import 'package:quiver/strings.dart';
 
 import 'ErrorUtil.dart';

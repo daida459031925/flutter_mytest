@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 
 class GlobalUtil {
 
-  static GlobalUtil ? _globalUtil ;
+  static GlobalUtil? _globalUtil ;
 
   GlobalUtil._();
 
