@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 // 字体适配
-import '../../utils/appSize.dart';
+import '../../utils/AppSize.dart';
 
 class ListAlign extends StatelessWidget {
   @override
@@ -26,13 +26,13 @@ class ListAlign extends StatelessWidget {
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowEffect()),
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowAttribute()),
         ]),

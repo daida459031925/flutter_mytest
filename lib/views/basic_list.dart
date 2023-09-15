@@ -574,17 +574,17 @@ class _BasicListState extends State<BasicList> {
       list.add(
         Container(
           margin: EdgeInsets.only(
-            left: AppSize.width(30),
-            right: AppSize.width(30),
-            top: AppSize.height(10),
-            bottom: AppSize.height(20),
+            left: AppSize.setWidth(30),
+            right: AppSize.setWidth(30),
+            top: AppSize.setHeight(10),
+            bottom: AppSize.setHeight(20),
           ),
           decoration: BoxDecoration(
             border: new Border.all(
-                color: Color(0xFFf7f7f9), width: AppSize.width(3)),
+                color: Color(0xFFf7f7f9), width: AppSize.setWidth(3)),
             color: Color(0xFFffffff),
             borderRadius: new BorderRadius.circular(
-              AppSize.width(5),
+              AppSize.setWidth(5),
             ),
           ),
           child: ExpansionTile(

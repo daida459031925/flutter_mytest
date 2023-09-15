@@ -14,12 +14,12 @@ class PlugPage extends StatelessWidget {
         SliverAppBar(
           pinned: true,
           primary: true,
-          expandedHeight: AppSize.height(230),
+          expandedHeight: AppSize.setHeight(230),
           backgroundColor: createMaterialColor(Color(0xFFfafcff)),
           flexibleSpace: FlexibleSpaceBar(
             titlePadding: EdgeInsets.symmetric(
-              horizontal: AppSize.width(80),
-              vertical: AppSize.width(25),
+              horizontal: AppSize.setWidth(80),
+              vertical: AppSize.setWidth(25),
             ),
             centerTitle: false,
             title: new Text(
@@ -39,8 +39,8 @@ class PlugPage extends StatelessWidget {
               // 小标题
               new Container(
                 width: double.infinity,
-                padding: EdgeInsets.fromLTRB(AppSize.width(80),
-                    AppSize.width(0), AppSize.width(80), AppSize.width(80)),
+                padding: EdgeInsets.fromLTRB(AppSize.setWidth(80),
+                    AppSize.setWidth(0), AppSize.setWidth(80), AppSize.setWidth(80)),
                 child: new Text(
                   "Flutter项目中常用插件及使用方法",
                   style: new TextStyle(

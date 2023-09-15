@@ -1,20 +1,35 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class AppSize {
-  static void init(BuildContext context) {
-    ScreenUtil.init(context,designSize: const Size(750, 1334));
-  }
+///屏幕适配工具类
+abstract class AppSize {
+  ///初始化屏幕宽高
+  static void init(BuildContext context, double width, double height) =>
+      ScreenUtil.init(context, designSize: Size(width, height));
 
-  static double height(double value) {
-    return ScreenUtil().setHeight(value);
-  }
+  ///设置容器宽度
+  static double setWidth(double width) => ScreenUtil().setWidth(width);
 
-  static double width(double value) {
-    return ScreenUtil().setWidth(value);
-  }
+  ///设置容器高度
+  static double setHeight(double height) => ScreenUtil().setHeight(height);
 
-  static double sp(double value) {
-    return ScreenUtil().setSp(value);
-  }
+  ///设置字体大小
+  static double sp(double value) => ScreenUtil().setSp(value);
+
+  //获取屏幕宽度
+  static double getWidth() => ScreenUtil().screenWidth;
+
+  ///获取屏幕高度
+  static double getHeight() => ScreenUtil().screenHeight;
+
+  ///获取像素点密度
+  static double? getPixel() => ScreenUtil().pixelRatio;
+
+  ///获取状态栏高度
+  static double getStatusBarHeight() => ScreenUtil().statusBarHeight;
+
+  ///获取滴鼻导航栏高度
+  static double getBottomBarHeight() => ScreenUtil().bottomBarHeight;
+
+
 }

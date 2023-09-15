@@ -126,7 +126,7 @@ class _HomesState extends State<Homes> {
 
   @override
   Widget build(BuildContext context) {
-    AppSize.init(context);
+    AppSize.init(context,100,100);
     return Scaffold(
       // 预留状态栏的高度
       appBar: PreferredSize(
@@ -145,39 +145,39 @@ class _HomesState extends State<Homes> {
         items: [
           BottomNavigationBarItem(
             icon: Image(
-              width: AppSize.width(48),
-              height: AppSize.width(48),
+              width: AppSize.setWidth(48),
+              height: AppSize.setWidth(48),
               image: AssetImage("assets/tab/search.png"),
             ),
             activeIcon: Image(
-              width: AppSize.width(48),
-              height: AppSize.width(48),
+              width: AppSize.setWidth(48),
+              height: AppSize.setWidth(48),
               image: AssetImage("assets/tab/active-search.png"),
             ),
             label: Text('全局搜索').data,
           ),
           BottomNavigationBarItem(
             icon: Image(
-              width: AppSize.width(48),
-              height: AppSize.width(48),
+              width: AppSize.setWidth(48),
+              height: AppSize.setWidth(48),
               image: AssetImage("assets/tab/basic.png"),
             ),
             activeIcon: Image(
-              width: AppSize.width(48),
-              height: AppSize.width(48),
+              width: AppSize.setWidth(48),
+              height: AppSize.setWidth(48),
               image: AssetImage("assets/tab/active-basic.png"),
             ),
             label: Text('基础组件').data,
           ),
           BottomNavigationBarItem(
             icon: Image(
-              width: AppSize.width(48),
-              height: AppSize.width(48),
+              width: AppSize.setWidth(48),
+              height: AppSize.setWidth(48),
               image: AssetImage("assets/tab/plug.png"),
             ),
             activeIcon: Image(
-              width: AppSize.width(48),
-              height: AppSize.width(48),
+              width: AppSize.setWidth(48),
+              height: AppSize.setWidth(48),
               image: AssetImage("assets/tab/active-plug.png"),
             ),
             label: Text('常用插件').data,

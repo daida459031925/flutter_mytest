@@ -29,13 +29,13 @@ class ListCupertinoSlider extends StatelessWidget {
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowEffect()),
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowAttribute()),
         ]),
@@ -68,7 +68,7 @@ class _LearnCupertinoSlider extends State<LearnCupertinoSlider> {
       children: <Widget>[
         Container(
           padding: EdgeInsets.only(
-              top: AppSize.height(40), bottom: AppSize.height(40)),
+              top: AppSize.setHeight(40), bottom: AppSize.setHeight(40)),
           child: Center(
             child: Text('$_slidervalue'),
           ),

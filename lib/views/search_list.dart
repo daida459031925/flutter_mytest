@@ -49,7 +49,7 @@ class SearchBarDelegate extends SearchDelegate<String> {
         return new Container(
             decoration: new BoxDecoration(
               color: new Color(0xffffffff),
-              borderRadius: new BorderRadius.circular((AppSize.width(20))),
+              borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               boxShadow: [
                 BoxShadow(
                     color: Colors.black12,
@@ -59,10 +59,10 @@ class SearchBarDelegate extends SearchDelegate<String> {
                     )
               ],
             ),
-            margin: EdgeInsets.fromLTRB(AppSize.width(20), AppSize.height(20),
-                AppSize.width(20), AppSize.height(0)),
-            padding: EdgeInsets.fromLTRB(AppSize.width(0), AppSize.height(10),
-                AppSize.width(0), AppSize.height(10)),
+            margin: EdgeInsets.fromLTRB(AppSize.setWidth(20), AppSize.setHeight(20),
+                AppSize.setWidth(20), AppSize.setHeight(0)),
+            padding: EdgeInsets.fromLTRB(AppSize.setWidth(0), AppSize.setHeight(10),
+                AppSize.setWidth(0), AppSize.setHeight(10)),
             child: new ListTile(
               enabled: true,
               title: RichText(
@@ -110,7 +110,7 @@ class SearchBarDelegate extends SearchDelegate<String> {
         return new Container(
             decoration: new BoxDecoration(
               color: new Color(0xffffffff),
-              borderRadius: new BorderRadius.circular((AppSize.width(20))),
+              borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               boxShadow: [
                 BoxShadow(
                     color: Colors.black12,
@@ -120,10 +120,10 @@ class SearchBarDelegate extends SearchDelegate<String> {
                     )
               ],
             ),
-            margin: EdgeInsets.fromLTRB(AppSize.width(20), AppSize.height(20),
-                AppSize.width(20), AppSize.height(0)),
-            padding: EdgeInsets.fromLTRB(AppSize.width(0), AppSize.height(10),
-                AppSize.width(0), AppSize.height(10)),
+            margin: EdgeInsets.fromLTRB(AppSize.setWidth(20), AppSize.setHeight(20),
+                AppSize.setWidth(20), AppSize.setHeight(0)),
+            padding: EdgeInsets.fromLTRB(AppSize.setWidth(0), AppSize.setHeight(10),
+                AppSize.setWidth(0), AppSize.setHeight(10)),
             child: new ListTile(
               enabled: true,
               title: RichText(

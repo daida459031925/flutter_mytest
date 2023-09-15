@@ -19,13 +19,13 @@ class _SearchPage extends State<StatefulWidget> {
       height: double.infinity,
       color: new Color(0xfafafcff),
       child: new Container(
-        margin: EdgeInsets.all(AppSize.width(25)),
+        margin: EdgeInsets.all(AppSize.setWidth(25)),
         child: Column(children: <Widget>[
           // 大标题
           new Container(
             width: double.infinity,
-            padding: EdgeInsets.fromLTRB(AppSize.width(55), AppSize.height(100),
-                AppSize.width(55), AppSize.height(10)),
+            padding: EdgeInsets.fromLTRB(AppSize.setWidth(55), AppSize.setHeight(100),
+                AppSize.setWidth(55), AppSize.setHeight(10)),
             child: new Text(
               "全局搜索所有组件",
               style: new TextStyle(
@@ -37,8 +37,8 @@ class _SearchPage extends State<StatefulWidget> {
           // 小标题
           new Container(
             width: double.infinity,
-            padding: EdgeInsets.fromLTRB(AppSize.width(55), AppSize.width(10),
-                AppSize.width(55), AppSize.width(20)),
+            padding: EdgeInsets.fromLTRB(AppSize.setWidth(55), AppSize.setWidth(10),
+                AppSize.setWidth(55), AppSize.setWidth(20)),
             child: new Text(
               "输入关键字搜索你想搜索的内容",
               style: new TextStyle(
@@ -50,27 +50,27 @@ class _SearchPage extends State<StatefulWidget> {
           // 搜索框
           new Container(
             margin: EdgeInsets.fromLTRB(
-                0, AppSize.width(100), AppSize.width(0), AppSize.width(20)),
+                0, AppSize.setWidth(100), AppSize.setWidth(0), AppSize.setWidth(20)),
             padding:
-                EdgeInsets.fromLTRB(AppSize.width(30), 0, AppSize.width(30), 0),
+                EdgeInsets.fromLTRB(AppSize.setWidth(30), 0, AppSize.setWidth(30), 0),
             decoration: new BoxDecoration(
                 border: new Border.all(
-                    color: Color(0xFFcccccc), width: AppSize.width(3)),
+                    color: Color(0xFFcccccc), width: AppSize.setWidth(3)),
                 color: Color(0xFFffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20)))),
-            height: AppSize.height(100),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20)))),
+            height: AppSize.setHeight(100),
             width: double.infinity,
             child: new Row(children: <Widget>[
               new Container(
                 child: new Image(
                   image: new AssetImage('assets/icon/search.png'),
-                  width: AppSize.width(50),
-                  height: AppSize.width(50),
+                  width: AppSize.setWidth(50),
+                  height: AppSize.setWidth(50),
                 ),
               ),
               Expanded(
                 child: new Container(
-                  padding: EdgeInsets.fromLTRB(AppSize.width(30), 0, 0, 0),
+                  padding: EdgeInsets.fromLTRB(AppSize.setWidth(30), 0, 0, 0),
                   child: GestureDetector(
                     child: new Text(
                       '搜索flutter组件',

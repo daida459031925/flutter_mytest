@@ -26,13 +26,13 @@ class ListPadding extends StatelessWidget {
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowEffect()),
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowAttribute()),
         ]),
@@ -46,8 +46,8 @@ class ShowEffect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.fromLTRB(AppSize.width(20), AppSize.height(20),
-          AppSize.width(20), AppSize.height(20)),
+      padding: EdgeInsets.fromLTRB(AppSize.setWidth(20), AppSize.setHeight(20),
+          AppSize.setWidth(20), AppSize.setHeight(20)),
       child: ListView(
         children: <Widget>[
           Container(
@@ -66,7 +66,7 @@ class ShowEffect extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(
-                top: AppSize.height(20), bottom: AppSize.height(20)),
+                top: AppSize.setHeight(20), bottom: AppSize.setHeight(20)),
             color: Colors.blue,
             width: double.infinity,
             child: Padding(
@@ -76,7 +76,7 @@ class ShowEffect extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(
-                top: AppSize.height(20), bottom: AppSize.height(20)),
+                top: AppSize.setHeight(20), bottom: AppSize.setHeight(20)),
             color: Colors.blue,
             width: double.infinity,
             child: Padding(
@@ -86,7 +86,7 @@ class ShowEffect extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(
-                top: AppSize.height(20), bottom: AppSize.height(20)),
+                top: AppSize.setHeight(20), bottom: AppSize.setHeight(20)),
             color: Colors.blue,
             width: double.infinity,
             child: Padding(
@@ -96,7 +96,7 @@ class ShowEffect extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(
-                top: AppSize.height(20), bottom: AppSize.height(20)),
+                top: AppSize.setHeight(20), bottom: AppSize.setHeight(20)),
             color: Colors.blue,
             width: double.infinity,
             child: Padding(
@@ -106,7 +106,7 @@ class ShowEffect extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(
-                top: AppSize.height(20), bottom: AppSize.height(20)),
+                top: AppSize.setHeight(20), bottom: AppSize.setHeight(20)),
             color: Colors.blue,
             width: double.infinity,
             child: Padding(

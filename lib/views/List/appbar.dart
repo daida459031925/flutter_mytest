@@ -26,13 +26,13 @@ class ListAppbar extends StatelessWidget {
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowEffect()),
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowAttribute()),
         ]),
@@ -46,12 +46,12 @@ class ShowEffect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.fromLTRB(AppSize.width(20), AppSize.height(20),
-          AppSize.width(20), AppSize.height(20)),
+      padding: EdgeInsets.fromLTRB(AppSize.setWidth(20), AppSize.setHeight(20),
+          AppSize.setWidth(20), AppSize.setHeight(20)),
       child: ListView(
         children: <Widget>[
           Container(
-            margin: EdgeInsets.only(top: AppSize.height(100)),
+            margin: EdgeInsets.only(top: AppSize.setHeight(100)),
             width: double.infinity,
             child: new AppBar(
               title: new Text('首页'),
@@ -69,7 +69,7 @@ class ShowEffect extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: AppSize.height(100)),
+            margin: EdgeInsets.only(top: AppSize.setHeight(100)),
             width: double.infinity,
             child: new AppBar(
               backgroundColor: Colors.redAccent,
@@ -91,7 +91,7 @@ class ShowEffect extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: AppSize.height(100)),
+            margin: EdgeInsets.only(top: AppSize.setHeight(100)),
             width: double.infinity,
             child: new AppBar(
               title: Text("标题标题标题标题标题标题标题标题标题"),

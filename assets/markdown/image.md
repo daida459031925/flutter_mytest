@@ -39,8 +39,8 @@
 fit 设置图片的填充模式，具体由BoxFit实现
 > Image.asset(
 >         'assets/sample/image.jpg',
->         width: AppSize.width(200),
->         height: AppSize.width(200),
+>         width: AppSize.setWidth(200),
+>         height: AppSize.setWidth(200),
 >         fit: BoxFit.cover,
 > ),
 

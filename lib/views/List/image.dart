@@ -26,13 +26,13 @@ class ListImage extends StatelessWidget {
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowEffect()),
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowAttribute()),
         ]),
@@ -48,8 +48,8 @@ class ShowEffect extends StatelessWidget {
     return Center(
       child: new Image.asset(
         'assets/sample/image.jpg',
-        width: AppSize.width(200),
-        height: AppSize.width(200),
+        width: AppSize.setWidth(200),
+        height: AppSize.setWidth(200),
         fit: BoxFit.cover,
       ),
     );

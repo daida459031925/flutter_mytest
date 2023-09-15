@@ -27,13 +27,13 @@ class ListContainer extends StatelessWidget {
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowEffect()),
           Container(
               decoration: new BoxDecoration(
                 color: new Color(0xffffffff),
-                borderRadius: new BorderRadius.circular((AppSize.width(20))),
+                borderRadius: new BorderRadius.circular((AppSize.setWidth(20))),
               ),
               child: ShowAttribute()),
         ]),
@@ -48,15 +48,15 @@ class ShowEffect extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: AppSize.width(250),
-        height: AppSize.width(250),
+        width: AppSize.setWidth(250),
+        height: AppSize.setWidth(250),
         decoration: new BoxDecoration(
           color: new Color(0xff6633FF),
         ),
         child: Center(
           child: Container(
-            width: AppSize.width(150),
-            height: AppSize.width(150),
+            width: AppSize.setWidth(150),
+            height: AppSize.setWidth(150),
             decoration: new BoxDecoration(
               color: new Color(0xffFFFF00),
             ),

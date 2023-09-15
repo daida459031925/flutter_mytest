@@ -55,6 +55,10 @@ dependencies:
   flutter_screenutil: ^5.9.0
   #markdown
   flutter_markdown: ^0.6.17+2
+  #开源图标库
+  getwidget: ^4.0.0
+  #视频播放器，人工智障说可以全平台
+  video_player: ^2.7.0
 
 dev_dependencies:
   flutter_test:
