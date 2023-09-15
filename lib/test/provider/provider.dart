@@ -10,11 +10,14 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) => const MaterialApp(
-    title: 'GetWidget',
-    debugShowCheckedModeBanner: false,
-    home: MyHomePage(),
-  );
+  Widget build(BuildContext context){
+    AppSize.init(context, 100, 100);
+    return const MaterialApp(
+      title: 'GetWidget',
+      debugShowCheckedModeBanner: false,
+      home: MyHomePage(),
+    );
+  }
 }
 
 class MyHomePage extends StatefulWidget {
@@ -57,11 +60,11 @@ class MyPage extends StatelessWidget {
                     color: Colors.blue,
                     child: ElevatedButton(
                       onPressed: () {
-                        // print(AppSize.getBottomBarHeight());
-                        // print(AppSize.getHeight());
-                        // print(AppSize.getPixel());
-                        // print(AppSize.getStatusBarHeight());
-                        // print(AppSize.getWidth());
+                        print(AppSize.getBottomBarHeight());
+                        print(AppSize.getHeight());
+                        print(AppSize.getPixel());
+                        print(AppSize.getStatusBarHeight());
+                        print(AppSize.getWidth());
 
                         Provider.of<PositionState>(context, listen: false).updatePosition(0, '新的左上');
                       },

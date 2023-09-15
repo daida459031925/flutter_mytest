@@ -51,7 +51,7 @@ dependencies:
   quiver: ^3.2.1
   #查看当前系统信息
   device_info_plus: ^9.0.3
-  #适配方案
+  #适配方案文字大小以及整个页面大小
   flutter_screenutil: ^5.9.0
   #markdown
   flutter_markdown: ^0.6.17+2
@@ -59,6 +59,8 @@ dependencies:
   getwidget: ^4.0.0
   #视频播放器，人工智障说可以全平台
   video_player: ^2.7.0
+  #滑动删除（Swipe to dismiss）和滑动菜单
+  flutter_slidable: ^3.0.0
 
 dev_dependencies:
   flutter_test:

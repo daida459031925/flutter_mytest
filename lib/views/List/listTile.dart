@@ -54,7 +54,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '1 图标',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -73,7 +73,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '2 标题',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -93,7 +93,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '3 副标题',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),

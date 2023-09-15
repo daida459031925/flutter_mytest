@@ -69,7 +69,7 @@ class SearchBarDelegate extends SearchDelegate<String> {
                   text: TextSpan(
                 text: suggestionList[index]['title'].substring(0, query.length),
                 style: new TextStyle(
-                  fontSize: AppSize.sp(24),
+                  fontSize: AppSize.setSp(24),
                   color: new Color(0xff040404),
                 ),
                 children: [
@@ -82,7 +82,7 @@ class SearchBarDelegate extends SearchDelegate<String> {
               subtitle: Text(
                 suggestionList[index]['key'],
                 style: new TextStyle(
-                  fontSize: AppSize.sp(23),
+                  fontSize: AppSize.setSp(23),
                   color: new Color(0xff7c7c7c),
                 ),
               ),
@@ -130,7 +130,7 @@ class SearchBarDelegate extends SearchDelegate<String> {
                   text: TextSpan(
                 text: suggestionList[index]['title'].substring(0, query.length),
                 style: new TextStyle(
-                  fontSize: AppSize.sp(24),
+                  fontSize: AppSize.setSp(24),
                   color: new Color(0xff040404),
                 ),
                 children: [
@@ -143,7 +143,7 @@ class SearchBarDelegate extends SearchDelegate<String> {
               subtitle: Text(
                 suggestionList[index]['key'],
                 style: new TextStyle(
-                  fontSize: AppSize.sp(23),
+                  fontSize: AppSize.setSp(23),
                   color: new Color(0xff7c7c7c),
                 ),
               ),

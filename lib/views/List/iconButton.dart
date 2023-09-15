@@ -60,7 +60,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '1 按钮',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -83,7 +83,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '2 按钮大小',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),

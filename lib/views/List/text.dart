@@ -57,7 +57,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '1 text',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -76,7 +76,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '2 省略号显示',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -92,7 +92,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '3 字体放大',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -154,7 +154,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '4 控制显示行数',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),

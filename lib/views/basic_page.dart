@@ -44,7 +44,7 @@ class BasicPage extends StatelessWidget {
                 child: new Text(
                   "Flutter常用的基本组件属性及使用方法",
                   style: new TextStyle(
-                    fontSize: AppSize.sp(26),
+                    fontSize: AppSize.setSp(26),
                     color: new Color(0xff7c7c7e),
                   ),
                 ),

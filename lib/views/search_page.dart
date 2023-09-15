@@ -29,7 +29,7 @@ class _SearchPage extends State<StatefulWidget> {
             child: new Text(
               "全局搜索所有组件",
               style: new TextStyle(
-                fontSize: AppSize.sp(56),
+                fontSize: AppSize.setSp(56),
                 color: new Color(0xff030303),
               ),
             ),
@@ -42,7 +42,7 @@ class _SearchPage extends State<StatefulWidget> {
             child: new Text(
               "输入关键字搜索你想搜索的内容",
               style: new TextStyle(
-                fontSize: AppSize.sp(26),
+                fontSize: AppSize.setSp(26),
                 color: new Color(0xff7c7c7e),
               ),
             ),
@@ -75,7 +75,7 @@ class _SearchPage extends State<StatefulWidget> {
                     child: new Text(
                       '搜索flutter组件',
                       style: new TextStyle(
-                        fontSize: AppSize.sp(32),
+                        fontSize: AppSize.setSp(32),
                         color: new Color(0xff7c7c7e),
                       ),
                     ),

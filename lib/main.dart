@@ -119,8 +119,8 @@ class _HomesState extends State<Homes> with WidgetsBindingObserver {
             label: Text('常用插件').data,
           ),
         ],
-        selectedFontSize: AppSize.sp(18),
-        unselectedFontSize: AppSize.sp(18),
+        selectedFontSize: AppSize.setSp(18),
+        unselectedFontSize: AppSize.setSp(18),
       ),
       body: Container(
         decoration: new BoxDecoration(

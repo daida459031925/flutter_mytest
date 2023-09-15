@@ -58,7 +58,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '1 分割线',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -78,7 +78,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '2 分割线的厚度',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -127,7 +127,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '3 分割线的后边空间',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),

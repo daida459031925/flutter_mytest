@@ -54,7 +54,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '1 长按图片显示',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),

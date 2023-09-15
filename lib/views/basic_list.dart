@@ -553,14 +553,14 @@ class _BasicListState extends State<BasicList> {
             title: Text(
               typeitem['title'],
               style: new TextStyle(
-                fontSize: AppSize.sp(24),
+                fontSize: AppSize.setSp(24),
                 color: new Color(0xff040404),
               ),
             ),
             subtitle: Text(
               typeitem['key'],
               style: new TextStyle(
-                fontSize: AppSize.sp(23),
+                fontSize: AppSize.setSp(23),
                 color: new Color(0xff7c7c7c),
               ),
             ),

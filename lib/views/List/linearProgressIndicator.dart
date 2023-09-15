@@ -54,7 +54,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '1 进度条',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -76,7 +76,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '2 带动画',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -98,7 +98,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '3 调整颜色',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -121,7 +121,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '4 进度条宽度',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),

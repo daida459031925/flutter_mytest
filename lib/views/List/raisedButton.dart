@@ -60,7 +60,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '1 按钮',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -81,7 +81,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '2 带颜色',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -127,7 +127,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '3 点击按钮时水波纹的颜色',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -191,7 +191,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '4 高亮颜色，点击（长按）按钮后的颜色',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),
@@ -232,7 +232,7 @@ class ShowEffect extends StatelessWidget {
               Text(
                 '5 设置按钮的形状',
                 style: new TextStyle(
-                  fontSize: AppSize.sp(38),
+                  fontSize: AppSize.setSp(38),
                   color: new Color(0xff030303),
                 ),
               ),

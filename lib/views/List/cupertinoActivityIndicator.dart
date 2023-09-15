@@ -60,7 +60,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '1 菊花',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -71,7 +71,7 @@ class ShowEffect extends StatelessWidget {
             width: double.infinity,
             child: Center(
               child: CupertinoActivityIndicator(
-                radius: AppSize.sp(38),
+                radius: AppSize.setSp(38),
                 animating: true,
               ),
             ),
@@ -83,7 +83,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '2 大小',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -96,7 +96,7 @@ class ShowEffect extends StatelessWidget {
             width: double.infinity,
             child: Center(
               child: CupertinoActivityIndicator(
-                radius: AppSize.sp(10),
+                radius: AppSize.setSp(10),
                 animating: true,
               ),
             ),
@@ -107,7 +107,7 @@ class ShowEffect extends StatelessWidget {
             width: double.infinity,
             child: Center(
               child: CupertinoActivityIndicator(
-                radius: AppSize.sp(20),
+                radius: AppSize.setSp(20),
                 animating: true,
               ),
             ),
@@ -118,7 +118,7 @@ class ShowEffect extends StatelessWidget {
             width: double.infinity,
             child: Center(
               child: CupertinoActivityIndicator(
-                radius: AppSize.sp(30),
+                radius: AppSize.setSp(30),
                 animating: true,
               ),
             ),
@@ -129,7 +129,7 @@ class ShowEffect extends StatelessWidget {
             width: double.infinity,
             child: Center(
               child: CupertinoActivityIndicator(
-                radius: AppSize.sp(40),
+                radius: AppSize.setSp(40),
                 animating: true,
               ),
             ),

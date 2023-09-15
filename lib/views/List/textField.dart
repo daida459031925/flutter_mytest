@@ -57,7 +57,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '1 普通表单',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -75,7 +75,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '2 边框表单、label 动效',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -108,7 +108,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '3 多行表单',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -129,7 +129,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '4 密码框',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),
@@ -150,7 +150,7 @@ class ShowEffect extends StatelessWidget {
                 Text(
                   '5 icon 表单',
                   style: new TextStyle(
-                    fontSize: AppSize.sp(38),
+                    fontSize: AppSize.setSp(38),
                     color: new Color(0xff030303),
                   ),
                 ),

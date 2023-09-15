@@ -14,7 +14,7 @@ abstract class AppSize {
   static double setHeight(double height) => ScreenUtil().setHeight(height);
 
   ///设置字体大小
-  static double sp(double value) => ScreenUtil().setSp(value);
+  static double setSp(double value) => ScreenUtil().setSp(value);
 
   //获取屏幕宽度
   static double getWidth() => ScreenUtil().screenWidth;
